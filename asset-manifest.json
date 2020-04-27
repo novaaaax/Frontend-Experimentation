@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Frontend-Experimentation/static/css/main.7f626815.chunk.css",
+    "main.js": "/Frontend-Experimentation/static/js/main.654df185.chunk.js",
+    "main.js.map": "/Frontend-Experimentation/static/js/main.654df185.chunk.js.map",
+    "runtime-main.js": "/Frontend-Experimentation/static/js/runtime-main.a9a3ca0e.js",
+    "runtime-main.js.map": "/Frontend-Experimentation/static/js/runtime-main.a9a3ca0e.js.map",
+    "static/js/2.4df46bb6.chunk.js": "/Frontend-Experimentation/static/js/2.4df46bb6.chunk.js",
+    "static/js/2.4df46bb6.chunk.js.map": "/Frontend-Experimentation/static/js/2.4df46bb6.chunk.js.map",
+    "index.html": "/Frontend-Experimentation/index.html",
+    "precache-manifest.22e003b267cca2c1a8b3e09d7f854128.js": "/Frontend-Experimentation/precache-manifest.22e003b267cca2c1a8b3e09d7f854128.js",
+    "service-worker.js": "/Frontend-Experimentation/service-worker.js",
+    "static/css/main.7f626815.chunk.css.map": "/Frontend-Experimentation/static/css/main.7f626815.chunk.css.map",
+    "static/js/2.4df46bb6.chunk.js.LICENSE.txt": "/Frontend-Experimentation/static/js/2.4df46bb6.chunk.js.LICENSE.txt",
+    "static/media/ADA.png": "/Frontend-Experimentation/static/media/ADA.18341a17.png",
+    "static/media/Daedalus.png": "/Frontend-Experimentation/static/media/Daedalus.f8fcd5be.png",
+    "static/media/bitcoin1.jpeg": "/Frontend-Experimentation/static/media/bitcoin1.15d30f2e.jpeg",
+    "static/media/cent.png": "/Frontend-Experimentation/static/media/cent.c549278c.png",
+    "static/media/decent.png": "/Frontend-Experimentation/static/media/decent.3714736e.png",
+    "static/media/logo.png": "/Frontend-Experimentation/static/media/logo.c7a00df1.png",
+    "static/media/yoroi.png": "/Frontend-Experimentation/static/media/yoroi.d56a277b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9a3ca0e.js",
+    "static/js/2.4df46bb6.chunk.js",
+    "static/css/main.7f626815.chunk.css",
+    "static/js/main.654df185.chunk.js"
+  ]
+}

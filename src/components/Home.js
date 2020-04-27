@@ -22,7 +22,7 @@ export class Home extends React.Component{
             // borderRadius: "25px",
             // textAlign: "center"
 
-        }} id="welcome" className="hero column col-11 col-xs-12 container">
+        }} id="welcome" className="jumbotron jumbotron-fluid">
             {/* <p> <img id="solve8" src={solve8} alt="solve"></p> */}
             <h1 style={{
                 padding: "60px"
@@ -45,7 +45,7 @@ export class Home extends React.Component{
                     <div >
                         <img src={cent} align="right" alt="cent"></img>
                     </div>
-                    <h5>First lets take a look at what centralized systems look like.</h5>
+                    <h5 style={{marginTop: '110px'}}>First lets take a look at what centralized systems look like.</h5>
                     {/* like vs. decentralized systems */}
                     <ul>
                         <li>A centralized system is a kind of system that requires, to you give your power, data or money to either a big corporation, a bank or, a government for convenience.</li>

@@ -76,7 +76,7 @@ export class Home extends React.Component{
             <div className="row">
                 <div className="column2">
                     <div id="decent1">
-                        <img src={decent} align="left"></img>
+                        <img src={decent} align="left" alt=""></img>
                     </div>
 
 
@@ -112,7 +112,7 @@ export class Home extends React.Component{
 
                 <div id="decent2">
 
-                    <img style={{ height: "450px" }} src={bitcoin1} align="left"></img>
+                    <img style={{ height: "450px" }} src={bitcoin1} align="left" alt=""></img>
                 </div>
 
                 <h6>After the 2008 financial crash and bailout of the "to-big to fail" corporations and banks, </h6>

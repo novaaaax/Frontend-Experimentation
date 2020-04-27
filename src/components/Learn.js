@@ -14,7 +14,6 @@ class Cryptocurrencies extends React.Component {
     }
     componentDidMount() {
         console.log("component mounted");
-        const dateInFuture = moment('05-12-2020', 'MM-DD-YYYY')
         var key = process.env.APIKey
         // eslint-disable-next-line no-useless-concat
         var URL = 'https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH,ADA&tsyms=USD,EUR' + `&api+key=${key}`;

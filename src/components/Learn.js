@@ -179,141 +179,180 @@ class Cryptocurrencies extends React.Component {
                         </div>
                         <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div className="card-body">
-                            <div className="wallet">
+                                <div className="wallet">
 
-<div style={{
-    //  backgroundImage: "url(" + cardano + ")",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    // paddingTop:"293px",
-    // paddingBottom:"127px",
-    // marginTop:"-75px"
-}} id="wall" className="hero column col-11 col-xs-12 container">
-    <div className="row">
-        <div className="column1">
-
-
-            <h1>ADA</h1>
-
-        </div>
-
-        <div id="imgada" style={{ width: '50px', height: '50px' }}  >
-            <img src={ada} alt="ADA" />
-
-        </div>
+                                    <div style={{
+                                        //  backgroundImage: "url(" + cardano + ")",
+                                        backgroundPosition: "center",
+                                        backgroundSize: "cover",
+                                        // paddingTop:"293px",
+                                        // paddingBottom:"127px",
+                                        // marginTop:"-75px"
+                                    }} id="wall" className="hero column col-11 col-xs-12 container">
+                                        <div className="row">
+                                            <div className="column1">
 
 
-    </div>
-</div>
-<div id="wallets" className="hero column col-11 col-xs-12 container">
-    <div className="row">
-        <div className="column">
+                                                <h1>ADA</h1>
 
-            <h5>The currency, powering the Cardano platform</h5>
+                                            </div>
 
-            <ul>
-                <li>ADA at its core, is money.</li> 
-                <li>You have to see it like cash...</li>
-                <li>With the only difference that, with ADA, like with Bitcoin for example, you have access to the whole history of that cash.</li>
-                <li> Now, if we look at ADA, the currency powering the Cardano platform, you have to think about it like fuel...</li>
-                <li>Consider Cardano your car, and ADA your fuel. If you don't have fuel, you can't drive.  </li>
-                <li>This also applies to Cardano, meaning, if you don't have ADA, you can't interact with Cardano. </li>
+                                            <div id="imgada" style={{ width: '50px', height: '50px' }}  >
+                                                <img src={ada} alt="ADA" />
+
+                                            </div>
 
 
-            </ul>
-        </div>
-        {/* <div class="card">
-            <div class="card-image"><img class="img-responsive" src="" alt="" /></div>
-            <div class="card-header">
-                <div class="card-subtitle text-gray">Ouroboros Chronos: Proof-of-Stake </div>
-                <div class="card-title h5"><a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://eprint.iacr.org/2019/838.pdf">Read the Paper</a></div>
-                <br></br>
-                <div class="card-subtitle text-gray">Hydra: Fast Isomorphic State Channels</div>
-                <div class="card-title h5"><a class="btn btn-primary" href="#cards">Read the Paper</a></div>
+                                        </div>
+                                    </div>
+                                    <div id="wallets" className="hero column col-11 col-xs-12 container">
+                                        <div className="row">
+                                            <div className="column">
 
-                {/* <div class="card-subtitle text-gray">Software and hardware</div> */}
-        {/* </div>
-            <div class="card-body">Find more peer reviewed papers and learn more about IOHK </div>
-            <div class="card-footer"><a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/research/library/">IOHK Library</a> <a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/research/researchers/">Researchers</a></div>
-        </div> */}
+                                                <h5>The currency, powering the Cardano platform</h5>
 
-    </div>
-</div>
+                                                <ul>
+                                                    <li>ADA at its core, is money.</li>
+                                                    <li>You have to see it like cash...</li>
+                                                    <li>With the only difference that, with ADA, like with Bitcoin for example, you have access to the whole history of that cash.</li>
+                                                    <li> Now, if we look at ADA, the currency powering the Cardano platform, you have to think about it like fuel...</li>
+                                                    <li>Consider Cardano your car, and ADA your fuel. If you don't have fuel, you can't drive.  </li>
+                                                    <li>This also applies to Cardano, meaning, if you don't have ADA, you can't interact with Cardano. </li>
 
 
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="ada" className="hero column col-11 col-xs-12 container">
+                                        <div className="row">
+                                            <h3>With any currency, you will need a wallet!</h3>
+
+                                        </div>
+
+                                        <div className="column">
+                                            <div className="column">
+                                                <h6>This wallet downloads the whole Cardano blockchain! Because you need a wallet.</h6>
+                                                <div class="card">
+                                                    <div class="card-image"  ><img class="img-responsive" src={daedalus} alt="" /></div>
+                                                    <div class="card-header">
+                                                        {/* <div class="card-subtitle text-gray">: Proof-of-Stake </div> */}
+                                                        <div class="card-title h5"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/en/download/">Download Daedalus <i class="fas fa-external-link-alt"></i></a></div>
+                                                        <br></br>
+                                                        <div class="card-subtitle text-gray">Specially created for ada holders who want to help, test new Daedalus wallet features.</div>
+                                                        <div class="card-title h5"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/en/flight/">DAEDALUS FLIGHT <i class="fas fa-external-link-alt"></i></a></div>
+
+                                                        {/* <div class="card-subtitle text-gray">Software and hardware</div> */}
+                                                    </div>
+                                                    <div class="card-body">Find more peer reviewed papers and learn more about IOHK </div>
+                                                    <div class="card-footer"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/en/">Learn more <i class="fas fa-external-link-alt"></i></a> <a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/en/team/">Team <i class="fas fa-external-link-alt"></i></a></div>
+                                                </div>
 
 
-<div id="ada" className="hero column col-11 col-xs-12 container">
-    <div className="row">
-        <h3>With any currency, you will need a wallet!</h3>
-    
-    </div>
+                                            </div>
 
+                                            <h5>Light Wallet, for Mobile or Chrome extension.  Because you will need a wallet!</h5>
+                                            {/* <div className="column"> */}
 
+                                            <div id=" you" class="card">
+                                                <div class="card-image" ><img class="img-responsive" src={yoroi} alt="" /></div>
+                                                <div class="card-header">
+                                                    <div class="card-title h5"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://yoroi-wallet.com/#/">Download Yoroi Wallet <i class="fas fa-external-link-alt"></i></a></div>
+                                                    <br></br>
+                                                    <div class="card-title h5"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://yoroi-wallet.com/#/faq/1">FAQ <i class="fas fa-external-link-alt"></i></a></div>
+                                                </div>
+                                                <div class="card-footer"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://yoroi-wallet.com/#/about">About <i class="fas fa-external-link-alt"></i></a> <a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://emurgo.io/en">Emurgo <i class="fas fa-external-link-alt"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <h4> If you are one of the first 10 people to ask we will send you 25$ in Ada after you download and created your wallet.</h4>
+                                    </div>
 
-    <div className="column">
-
-        
-
-        <div className="column">
-        <h6>This wallet downloads the whole Cardano blockchain! Because you need a wallet.</h6>
-            <div class="card">
-                <div class="card-image"  ><img class="img-responsive"  src={daedalus} alt="" /></div>
-                <div class="card-header">
-                    {/* <div class="card-subtitle text-gray">: Proof-of-Stake </div> */}
-                    <div class="card-title h5"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/en/download/">Download Daedalus <i class="fas fa-external-link-alt"></i></a></div>
-                    <br></br>
-                    <div class="card-subtitle text-gray">Specially created for ada holders who want to help, test new Daedalus wallet features.</div>
-                    <div class="card-title h5"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/en/flight/">DAEDALUS FLIGHT <i class="fas fa-external-link-alt"></i></a></div>
-
-                    {/* <div class="card-subtitle text-gray">Software and hardware</div> */}
-                </div>
-                <div class="card-body">Find more peer reviewed papers and learn more about IOHK </div>
-                <div class="card-footer"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/en/">Learn more <i class="fas fa-external-link-alt"></i></a> <a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/en/team/">Team <i class="fas fa-external-link-alt"></i></a></div>
-            </div>
-
-
-        </div>
-
-                 <h5>Light Wallet, for Mobile or Chrome extension.  Because you will need a wallet!</h5>
-        {/* <div className="column"> */}
-
-        
-
-            <div  id=" you" class="card">
-                <div class="card-image" ><img class="img-responsive" src={yoroi} alt="" /></div>
-                <div class="card-header">
-                    {/* <div class="card-subtitle text-gray">by Emurgo </div> */}
-                    <div class="card-title h5"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://yoroi-wallet.com/#/">Download Yoroi Wallet <i class="fas fa-external-link-alt"></i></a></div>
-                    <br></br>
-                    {/* <div class="card-subtitle text-gray">Hydra: Fast Isomorphic State Channels</div> */}
-                    <div class="card-title h5"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer"  href="https://yoroi-wallet.com/#/faq/1">FAQ <i class="fas fa-external-link-alt"></i></a></div>
-
-                    {/* <div class="card-subtitle text-gray">Software and hardware</div> */}
-                </div>
-                {/* <div class="card-body">Find more peer reviewed papers and learn more about IOHK </div> */}
-                <div class="card-footer"><a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://yoroi-wallet.com/#/about">About <i class="fas fa-external-link-alt"></i></a> <a class="btn btn-dark" target="_blank" rel="noopener noreferrer" href="https://emurgo.io/en">Emurgo <i class="fas fa-external-link-alt"></i></a></div>
-            </div>
-        </div>
-        <h4> If you are one of the first 10 people to ask we will send you 25$ in Ada after you download and created your wallet.</h4>
-    </div>
-
-</div>
-      </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="card">
                         <div className="card-header" id="headingThree">
                             <h5 className="mb-0">
                                 <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Collapsible Group Item #3
+                                    Introduction
         </button>
                             </h5>
                         </div>
                         <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                             <div className="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
+                                <div style={{
+                                    backgroundPosition: "center",
+                                    backgroundSize: "cover"
+                                }} id="welcome" className="hero column col-11 col-xs-12 container">
+                                    <h1>Welcome to Solve,</h1>
+                                    <h3> we recognize that we must pave the way for the next generation and therefore, we are committed to take you on the Journey of awareness about Cryptocurrencies, Cardano and Decentralization.</h3>
+                                </div>
+
+                                <div id="centralize" className="hero column col-11 col-xs-12 container">
+                                    <div className="row">
+                                        <div className="column1">
+                                            <h5>First lets take a look at what centralized systems look like.</h5>
+                                            <ul>
+                                                <li>A centralized system is a kind of system that requires, to you give your power, data or money to either a big corporation, a bank or, a government for convenience.</li>
+                                                <li>Banks are centralized - FOR profit systems that are not, accessible to all! Especially the lower class and those in poorer countries, 1.7 Billion Adults are un banked !</li>
+                                                <li>Centralized systems confine you to their strict rules and regulations </li>
+                                                <li>In Centralized systems you don't have control over your data </li>
+                                                <li>You can lose your freedom of speech on a centralized platform and even be banned</li>
+                                                <li>A very good example of the ramifications of a fully centralized system is China. A country that is using its digital power to control and suppress the people, where basic rights are being taken away, censorship is taking over and a social score is being implemented. </li>
+
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+      
+                                <div id="decentralize" className="hero column col-11 col-xs-12 container">
+                                    <div className="row">
+                                        <div className="column2">
+
+                                            <h5> Now lets take a look at what decentralized systems look like</h5>
+                                            <ul>
+                                                <li>A Decentralized system is a kind of system that has no central authority making decisions in the name of all participants. </li>
+                                                <li>Each participant, also known as ‘peer,’ makes their own autonomous decisions pursuing their own self-interest that may collide with the goals of other peers.</li>
+                                                <li>In decentralized systems the participants directly interact with each other, share information, or, offer services to others.</li>
+                                                <li>In an open, decentralized system, there are no limits or regulations for new users to access it because of country or their social and economic status.</li>
+                                                <li>Any new participant can enter or leave the system at will.</li>
+                                                <li>No one can be banned and each individual can vote by being part of the system and by owning a pice of the system</li>
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div style={{
+                                }} id="decentralize" className="hero column col-11 col-xs-12 container">
+                                    <div className="row">
+                                        <h6>After the 2008 financial crash and bailout of the "to-big to fail" corporations and banks, </h6>
+                                        <h4>a new system of technology emerged!</h4>
+                                        <ul>
+                                            <li>This system is like the internet where people can build on top of it</li>
+                                            <li>It is fully transparent </li>
+                                            <li>Censorship resistent</li>
+                                            <li>Not only can you own a pice of the system but you can transfer it</li>
+                                            <li>It is borderless </li>
+                                            <li>This system is deflationary</li>
+                                            <li>It is used as a store of value, because of its set supply</li>
+                                            <li>Bitcoin is the first generation of cryptocurrencies aka. digital gold</li>
+                                            {/* <li> Decentralization began with bitcoin and continues with to expand throughout the globe</li> */}
+                                        </ul>
+                                        <h3>We sincerely believe that decentralization began with bitcoin and that it continues to expand its reach with <a color="red" href="/cardano">Cardano</a>.</h3>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
